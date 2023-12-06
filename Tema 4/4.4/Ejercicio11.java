@@ -14,10 +14,12 @@ public class Ejercicio11 {
         int [] numeros1 = new int [100];
         int [] numeros2 = new int [100];
 
+        //hago que la variable numeros1 vaya del número 1 hasta el 100
         for (int i = 0; i < 100; i++) {
             numeros1[i] = i + 1;
         }
 
+        //hago que la variable numeros2 vaya del número 100 hasta el 1
         for (int i = 0; i < 100; i++) {
             numeros2[i] = numeros1[100 - i - 1];
         }
